@@ -1,0 +1,278 @@
+#header {
+	height: 175px;
+}
+
+#center {
+	width: 490px;
+	float: left;
+}
+
+.float-left {
+	float: left;
+}
+
+#center h1 {
+	text-align: right;
+    margin-left: 0px;
+	font-weight: normal;
+    text-shadow: 3px 2px 4px rgb(150,150,150); 
+    padding-top: 45px;
+	font-family: Verdana,'Open Sans', Arial, Tahoma ;
+	font-size: 32px;
+	
+}	
+	
+#wrap {
+	background: #e3e3e3;
+	
+	-moz-box-shadow: 0 0 70px #666;
+	-webkit-box-shadow: 0 0 70px #666;
+	box-shadow: 0 0 70px #666;
+}
+
+#wrap-service {
+	
+}
+
+body {
+	background : url("../img/glossymetal.jpg") repeat ;
+}
+
+table {
+	text-align: center;
+}
+
+td {
+	width: 300px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.thumb {
+	padding: 5px 3px;	
+	max-width: 300px;  
+	max-height: 300px;
+}
+
+.phone {
+	
+	padding-top: 30px;
+	
+	float: right;
+	text-align: left;
+	width: 230px;
+	position: relative;
+	font-style: normal;
+    font-family: Verdana,'Open Sans', Arial, Tahoma ;
+}
+
+	#tel {
+		font-size: 20px;
+	}
+	
+	#city {
+		font-size: 14px;
+	}
+
+	#time {
+		padding-right: 60px;
+		text-align: right;
+		font-size: 14px;
+	}
+
+#pics li {
+	list-style: none;
+}
+
+#pics li img {
+	 background: none repeat scroll 0% 0% gray;
+     display: block;
+     float: left;
+     height: 160px;
+     width: 118px;
+     margin-left: 30px;
+     margin-top: 7px;
+     position: relative;
+     
+	
+}
+
+#left_col {
+	font-family: Verdana;
+	font-size: 16px;
+	width: 603px;
+	line-height: 20px;
+	float: left;
+	list-style: none;
+	background: #eaeaea;
+	margin-top: -10px;
+	margin-left: 14px;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-right: 9px;
+	-moz-box-shadow: 3px 3px 12px #888;
+	-webkit-box-shadow: 3px 3px 12px #888;
+	box-shadow: 3px 3px 12px #888;
+}
+
+	#left_col ul {
+		padding-left: 1.5em;
+		text-indent: -3px;
+	}
+
+	#left_col li {
+		line-height: 22px;
+	}
+
+#right_col {
+	position: relative;
+	float: right;
+	height: 568px;
+	padding-top: 0px;
+	margin-left: 0px;
+	margin-top: -10px;
+	margin-right: 10px;
+	-moz-box-shadow: 3px 3px 12px #888;
+	-webkit-box-shadow: 3px 3px 12px #888;
+	box-shadow: 3px 3px 12px #888;
+	
+}
+
+        #right_col li {
+            list-style: none;
+
+        }
+
+#right_col_vk {	
+	float: right;
+	margin-top: -10px;
+	margin-right: 10px;
+}
+
+#vk_groups {
+	margin-top: 10px;
+}
+
+#menu {
+	background: #555;
+	color: #000000;
+	
+        font-size: 15px;
+        overflow: hidden;    
+        position: relative;
+        height: 33px;
+/*        background: url("http://www.gametech.ru/pic/bg_button.gif") repeat-x;*/
+        background: url("../img/nav_bg.jpg") repeat-x;
+	font-family: Verdana, 'Open Sans', sans-serif;
+}
+
+	#menu li {
+	    list-style: none;
+	    float: left;
+	    /*width: 100px;*/
+	  
+	}
+	
+	#menu li a {
+		
+	    color: #000;
+            /*font-family: candara;*/
+	    text-decoration: none;
+	    height: 33px;
+	    line-height: 33px;
+	    text-align: center;
+	    display: block;
+	    width: 119px;
+	    text-transform:	uppercase;
+	    border-right: 1px solid black;
+	   /* text-shadow: 0 1px 1px black;*/
+	    
+	}
+	
+	#menu li a:hover {
+	    color: blue;
+	    background: url("../img/nav_button_hover.jpg") no-repeat;
+	}
+	
+	#menu li a:active {
+	    color: blue;
+	    background: url("../img/nav_button_active.jpg") no-repeat;
+	}
+
+#content {
+	height: 1150px;
+	padding: 23px;
+	padding-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#content-service {
+	font-family: Verdana;
+	font-size: 16px;
+	
+	line-height: 20px;
+	
+	list-style: none;
+	background: #eaeaea;
+	margin-top: -10px;
+	margin-left: 14px;
+	margin-right: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 9px;
+	-moz-box-shadow: 3px 3px 12px #888;
+	-webkit-box-shadow: 3px 3px 12px #888;
+	box-shadow: 3px 3px 12px #888;
+}
+
+	#content-service ul {
+		padding-left: 1.5em;
+		text-indent: -3px;
+	}
+
+	#content-service li {
+		line-height: 22px;
+	}
+
+#galcontent {
+	height: 1000px;
+	padding: 23px;
+	padding-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#sat {
+	
+	text-align: right;
+	
+}
+
+#map {
+	
+	margin: 5px 12px;
+}
+
+#map-main {
+	height: 200px;
+	display: block;
+	
+	padding: 20px 7px;
+	
+}
+
+#gallery-wrapper {
+	margin: 5px 15px;
+
+}
+
+#footer {		
+	margin-top: 10px;
+	margin-left: 14px;
+	padding-right: 14px;	
+	display: inline-block;
+	width: 936px;
+	float: left;
+}
