@@ -48,6 +48,10 @@ td {
 	vertical-align: middle;
 }
 
+#index_map {
+	padding-top: 10px;
+}
+
 .thumb {
 	padding: 5px 3px;	
 	max-width: 300px;  
