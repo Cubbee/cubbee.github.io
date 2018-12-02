@@ -42,7 +42,7 @@
     </header>
     <section class="container-fluid biggest-margin-bottom">
     <!-- <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "cellAlign": "center", "pageDots": false, "freeScroll": true, "initialIndex": 2}'> -->
-    <div class="gallery">
+    <div class="row">
         <div class="slider-img text-center">
             <a class="slider-href" href="https://www.instagram.com/p/BpO7FSvg7Ju/" target="_blank">
                 <img class="rounded" src="img/1_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
@@ -63,11 +63,11 @@
                 <img class="rounded" src="img/2_thumb.jpg"></br> <i class="fab fa-instagram fa-2x slider-icon"></i>
             </a>
         </div>
-        <!-- <div class="slider-img text-center">
+        <div class="slider-img text-center">
             <a class="slider-href" href="https://www.instagram.com/p/Bp9yk_TH2cR/" target="_blank">
                 <img class="rounded" src="img/3_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
             </a>
-        </div> -->
+        </div>
         <div class="slider-img text-center">
             <a class="slider-href" href="https://www.instagram.com/p/BpWS83tALWZ/" target="_blank">
                 <img class="rounded" src="img/5_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
@@ -78,16 +78,16 @@
                 <img class="rounded" src="img/6_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
             </a>
         </div>
-        <!-- <div class="slider-img text-center">
+        <div class="slider-img text-center">
             <a class="slider-href" href="https://www.instagram.com/leon63sokolov/" target="_blank">
                 <img class="rounded" src="img/7_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
             </a>
-        </div> -->
-        <!-- <div class="slider-img text-center">
+        </div>
+        <div class="slider-img text-center">
             <a class="slider-href" href="https://www.instagram.com/leon63sokolov/" target="_blank">
                 <img class="rounded" src="img/4_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
             </a>
-        </div> -->
+        </div>
         <div class="slider-img text-center">
             <a class="slider-href" href="https://www.instagram.com/p/Bo9c7cGg8qD/" target="_blank">
                 <img class="rounded" src="img/8_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
@@ -108,6 +108,8 @@
                 <img class="rounded" src="img/13_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
             </a>
         </div> -->
+    </div>
+    <div class="gallery">
     </div>
     </section>
     <section class="container big-margin-bottom">
@@ -147,8 +149,6 @@
                     <li>Установка швейцарских батареек "Renata"</li>
                 </ul>
             </div>
-
-
         </div>
     </section>
     <section class="container text-center">
@@ -208,7 +208,13 @@
     <!-- /Yandex.Metrika counter -->
 
     <script type="text/javascript">
-        var flkty = new Flickity('.gallery', { wrapAround: true, cellAlign: "center", pageDots: false, freeScroll: true, initialIndex: 2});
-        flkty.next();
+        var flkty = new Flickity('.gallery', { wrapAround: true, cellAlign: "center", pageDots: false, freeScroll: true});
+        var list = document.getElementsByClassName('slider-img');
+        console.log(list);
+        // for (var i=0; i<list.length; i++) {
+        //     flkty.append( list[i] );
+        // }
+        flkty.append(list);
+        flkty.resize();
     </script>
 </body>
