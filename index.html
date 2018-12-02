@@ -41,7 +41,8 @@
         </div>
     </header>
     <section class="container-fluid biggest-margin-bottom">
-    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "cellAlign": "center", "pageDots": false, "freeScroll": true, "initialIndex": 2}'>
+    <!-- <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "cellAlign": "center", "pageDots": false, "freeScroll": true, "initialIndex": 2}'> -->
+    <div class="gallery">
         <div class="slider-img text-center">
             <a class="slider-href" href="https://www.instagram.com/p/BpO7FSvg7Ju/" target="_blank">
                 <img class="rounded" src="img/1_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
@@ -97,8 +98,6 @@
                 <img class="rounded" src="img/9_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
             </a>
         </div>
-
-
         <div class="slider-img text-center">
             <a class="slider-href" href="https://www.instagram.com/p/BqOlQgunsHy/" target="_blank">
                 <img class="rounded" src="img/12_thumb.jpg"></br><i class="fab fa-instagram fa-2x slider-icon"></i>
@@ -207,4 +206,8 @@
     </script>
     <noscript><div><img src="//mc.yandex.ru/watch/19152676" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+
+    <script type="text/javascript">
+        var flkty = new Flickity('.gallery', { wrapAround: true, cellAlign: "center", pageDots: false, freeScroll: true, initialIndex: 2});
+    </script>
 </body>
