@@ -208,13 +208,13 @@
     <!-- /Yandex.Metrika counter -->
 
     <script type="text/javascript">
-        var flkty = new Flickity('.gallery', { wrapAround: true, cellAlign: "center", pageDots: false, freeScroll: true});
+        var flkty = new Flickity('.gallery', { wrapAround: true, cellAlign: "center", pageDots: false, freeScroll: true, imagesLoaded: true});
         var list = document.getElementsByClassName('slider-img');
         console.log(list);
         // for (var i=0; i<list.length; i++) {
         //     flkty.append( list[i] );
         // }
         flkty.append(list);
-        flkty.reloadCells();
+        // flkty.reloadCells();
     </script>
 </body>
