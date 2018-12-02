@@ -42,6 +42,7 @@
 
 .slider-img {
 	margin: 5px;
+	visibility: hidden;
 }
 
 .slider-href {

@@ -216,5 +216,18 @@
         // }
         flkty.append(list);
         // flkty.reloadCells();
+
+        var execute = function () {
+            var list = document.getElementsByClassName('slider-img');
+            for (var i=0; i<list.length; i++) {
+                list[i].style.visibility = 'visible';
+            }
+        };
+
+        if ( !!(window.addEventListener) )
+            window.addEventListener("DOMContentLoaded", execute)
+        else // MSIE
+            window.attachEvent("onload", execute)
+
     </script>
 </body>
